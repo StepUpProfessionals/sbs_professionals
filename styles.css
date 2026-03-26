@@ -419,7 +419,11 @@ ul { list-style: none; }
     }
     .main-nav.open { display: block; }
     .mobile-toggle { display: flex; }
-
+	.hero-image,
+    .about-image,
+    .cta-image {
+        width: 100%;
+    }
     .hero-inner { grid-template-columns: 1fr; gap: 40px; }
     .hero-image { max-width: 420px; margin: 0 auto; }
     .about-inner { grid-template-columns: 1fr; gap: 40px; }
@@ -462,6 +466,12 @@ ul { list-style: none; }
         border-radius: var(--radius-sm); padding: 14px 22px;
     }
     .mobile-toggle { display: flex; }
+	.hero-image,
+    .about-image,
+    .cta-image {
+        width: 100%;
+        min-height: 280px;
+    }
 
     .hero { padding-top: calc(72px + 48px); }
     .hero-title { font-size: clamp(1.8rem, 6.5vw, 2.4rem); }
